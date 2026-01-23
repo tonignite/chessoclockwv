@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
 
 // Only import webview on non-web platforms
-import 'package:webview_flutter/webview_flutter.dart' if (dart.library.html) 'dart:html' as web_or_html;
+import 'package:webview_flutter/webview_flutter.dart';
 
 void main() {
   runApp(const MyApp());
